@@ -11,7 +11,7 @@
     "prettier/prettier": ["error", { "singleQuote": true }],
     "import/prefer-default-export": "off",
     "react/function-component-definition": [2, {
-      "namedComponents": "arrow-function",
+      "namedComponents": "arrow-function"
     }],
     "react/react-in-jsx-scope": 0
   },
@@ -22,5 +22,6 @@
         "moduleDirectory": ["node_modules", "src/"]
       }
     }
-  }
+  },
+  "ignorePatterns": ["src/index.js"]
 }
