@@ -8,8 +8,6 @@ const router = createBrowserRouter([
   },
 ]);
 
-const Routes = ({ children }) => (
-  <RouterProvider router={router}>{children}</RouterProvider>
-);
+const Routes = () => <RouterProvider router={router} />;
 
 export default Routes;
