@@ -1,10 +1,11 @@
 import './font.css';
+import Routes from 'routes';
 import GlobalStyle from './GlobalStyle';
 
 const App = () => (
   <div>
     <GlobalStyle />
-    폰트 테스트 좀?
+    <Routes />
   </div>
 );
 
